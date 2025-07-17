@@ -35,7 +35,7 @@ Build a secure backend for a Learning Management System (LMS) using:
 ##  Folder Structure
 
 ```
-Module4_Assignment_TarunAdithya/
+Module4_Assignment/
 ├── src/
 │   ├── models/
 │   │   └── user_model.ts
@@ -69,7 +69,7 @@ BCRYPT_SALT_ROUNDS=10
 
 ```
 # 1. Clone the repository
-cd Module4_Assignment_TarunAdithya
+cd Module4_Assignment
 
 # 2. Install dependencies
 npm install <what ever dependencies we want to install>
@@ -89,9 +89,9 @@ Registers a new user.
 #### Body:
 ```json
 {
-  "name": "Tarun adithya",
-  "email": "tarundithya@gmail.com",
-  "password": "qwerty123",
+  "name": "Poojitha",
+  "email": "poojitha123@gmail.com",
+  "password": "12345676",
   "role": "admin"
 }
 ```
@@ -105,7 +105,7 @@ Authenticates a user and returns a JWT token.
 #### Body:
 ```json
 {
-  "email": "tarundithya@gmail.com",
+  "email": "pooitha@gmail.com",
   "password": "qwerty123"
 }
 ```
