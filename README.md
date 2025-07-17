@@ -8,17 +8,7 @@ Build a secure backend for a Learning Management System (LMS) using:
 -  Role-Based Access Control (RBAC)  
 -  Bcrypt for password hashing  
 
----
 
-##  Features
-
--  User Registration (`/api/register`)  
--  User Login & JWT generation (`/api/login`)  
--  Protected route for admin to fetch all users (`/api/users`)  
--  Role-based access (`admin`, `student`, `instructor`)  
--  Secure password storage using `bcryptjs`  
-
----
 
 ##  Tech Stack
 
@@ -72,7 +62,7 @@ BCRYPT_SALT_ROUNDS=10
 cd Module4_Assignment
 
 # 2. Install dependencies
-npm install <what ever dependencies we want to install>
+npm install
 
 # 3. Start the development server
 npm start
